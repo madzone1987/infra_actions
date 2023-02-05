@@ -75,5 +75,3 @@ jobs:
           sudo docker stop $(sudo docker ps -a -q)
           # Попробовать заменить на ${{ secrets.DOCKER_USERNAME }}
           sudo docker run --rm -d -p 5000:5000 madzone1987/infra:latest
-          
-          
